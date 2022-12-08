@@ -101,3 +101,74 @@ html{
     border-left: 6px solid rgb(184, 14, 14);
     color: black;
 }
+
+@media screen and (max-width:400px) {
+    .main{
+        margin-top:100px ;
+        text-align: center;
+        border: 2px solid black;
+      width:90% ;
+      height: 80%;
+      border-radius: 10px;
+      overflow: scroll;
+      background-color: black;
+    
+    }
+    .main::-webkit-scrollbar{
+        display: none;
+    }
+    .todo_button{
+        background-color: rgb(192, 191, 227);
+        border-radius: 4px;
+        width: 11%;
+    }
+    .todo_button:hover{
+        background-color: rgb(113, 117, 232);
+    }
+    .todo_buttons{
+        background-color: rgb(45, 121, 121);
+        width: 25%;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .todo_buttons:hover{
+        background-color: rgb(146, 173, 184);
+        
+    }
+}
+@media screen and (max-width:700px) {
+    .main{
+        margin-top:100px ;
+        text-align: center;
+        border: 2px solid black;
+      width:90% ;
+      height: 80%;
+      border-radius: 10px;
+      overflow: scroll;
+      background-color: black;
+    
+    }
+    .main::-webkit-scrollbar{
+        display: none;
+    }
+    .todo_button{
+        background-color: rgb(192, 191, 227);
+        border-radius: 4px;
+        width: 11%;
+    }
+    .todo_button:hover{
+        background-color: rgb(113, 117, 232);
+    }
+    .todo_buttons{
+        background-color: rgb(45, 121, 121);
+        width: 25%;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .todo_buttons:hover{
+        background-color: rgb(146, 173, 184);
+        
+    }
+}
